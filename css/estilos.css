@@ -1,0 +1,19 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
+/* selector de etiqueta */
+body {
+    background: red;
+}
+
+/* selector descendente */
+/* body header div nav ol li a */
+
+/* selector de clase . */
+/* .<nombreclse> */
+
+/* selector de id # */
+/* #<id> */
