@@ -13,7 +13,7 @@
         </style>
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
                 <figure>
                     <img src="images/logo.png" alt="Logo de jlobeto.wordpress.com">
@@ -33,23 +33,27 @@
                 </nav>
             </div>
         </header>
-        <section>
+        <section class="hero">
             <h1>
                 Hola! Soy <strong>Jorge Lopez</strong> Software Engineering <br>
-                con pasión por el desarrollo y <br>
-                la <strong>evolución</strong> de los productos y equipos
+                con pasión por el <strong>desarrollo</strong> y <br>
+                la evolución de los <strong>productos y equipos</strong>
             </h1>
             <img src="images/hero.jpg" width="500" alt="imagen principal del sitio">
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="portfolio">
             <h2>Portafolio (Proyectos destacados)</h2>
-            <article>
-                <h3>Amazon Viewer</h3>
-                <h6>Java</h6>
-                <p><small><strong>Fecha:</strong> Abril 2019</small></p>
-                <p><small><strong>Puedes verlo en:</strong> Ruta github</small></p>
-                <p>Proyecto a raiz del curso basico de java en PLATZI</p>
-                <img src="images/platzi-video-react-native.png" width="500" alt="proyecto del curso de React Native">
+            <article class="project">
+                <div class="project-details">
+                    <h3>Amazon Viewer</h3>
+                    <h6>Java</h6>
+                    <p><small><strong>Fecha:</strong> Abril 2019</small></p>
+                    <p><small><strong>Puedes verlo en:</strong> Ruta github</small></p>
+                    <p>Proyecto a raiz del curso basico de java en PLATZI</p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="images/platzi-video-react-native.png" width="500" alt="proyecto del curso de React Native">
+                </figure>
             </article>
         </section>
         <section id="eventos">
