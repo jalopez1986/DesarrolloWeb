@@ -79,8 +79,10 @@ h1 strong {
 
 .project-details {
     width: 500px;
+    display: inline-block;
 }
 
 .project-imageContainer {
     width: 500px;
+    display: inline-block;
 }
