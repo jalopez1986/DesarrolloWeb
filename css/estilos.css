@@ -79,10 +79,25 @@ h1 strong {
 
 .project-details {
     width: 500px;
-    display: inline-block;
 }
 
 .project-imageContainer {
     width: 500px;
-    display: inline-block;
+}
+
+.flexbox {
+    display: flex;
+    /* flex-direction: column;   es el valor por defecto*/
+    /* flex-wrap: nowrap; es el valor por defecto */
+    flex-wrap: wrap;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 20px;
+
+    flex-shrink: 0;
 }
