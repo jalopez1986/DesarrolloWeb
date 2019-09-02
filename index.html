@@ -13,34 +13,23 @@
         </style>
     </head>
     <body>
-        <div class="flexbox">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-           
-        </div>
         <header class="header">
-            <div>
-                <figure>
-                    <img src="images/logo.png" alt="Logo de jlobeto.wordpress.com">
-                </figure>
-                <nav>
-                    <ol>
-                        <li>
-                            <a class="link" href="#portafolio">Portafolio</a>
-                        </li>
-                        <li>
-                            <a class="link" href="#eventos">Experiencia</a>
-                        </li>
-                        <li>
-                            <a class="link" href="#contacto">Trabajemos juntos</a>
-                        </li>
-                    </ol>
-                </nav>
-            </div>
+            <figure>
+                <img src="images/logo.png" alt="Logo de jlobeto.wordpress.com" height="50">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#eventos">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">Trabajemos juntos</a>
+                    </li>
+                </ol>
+            </nav>
         </header>
         <section class="hero">
             <h1>
@@ -54,11 +43,11 @@
             <h2>Portafolio (Proyectos destacados)</h2>
             <article class="project">
                 <div class="project-details">
-                    <h3>Amazon Viewer</h3>
-                    <h6>Java</h6>
-                    <p><small><strong>Fecha:</strong> Abril 2019</small></p>
-                    <p><small><strong>Puedes verlo en:</strong> Ruta github</small></p>
-                    <p>Proyecto a raiz del curso basico de java en PLATZI</p>
+                    <h3 class="project-title">Amazon Viewer</h3>
+                    <h6 class="project-course">Java</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> Abril 2019</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en:</strong> Ruta github</small></p>
+                    <p class="project-description">Proyecto a raiz del curso basico de java en PLATZI</p>
                 </div>
                 <figure class="project-imageContainer">
                     <img class="project-image" src="images/platzi-video-react-native.png" width="500" alt="proyecto del curso de React Native">
@@ -66,37 +55,85 @@
             </article>
             <article class="project">
                 <div class="project-details">
-                    <h3>Amazon Viewer</h3>
-                    <h6>Java</h6>
-                    <p><small><strong>Fecha:</strong> Abril 2019</small></p>
-                    <p><small><strong>Puedes verlo en:</strong> Ruta github</small></p>
-                    <p>Proyecto a raiz del curso basico de java en PLATZI</p>
+                    <h3 class="project-title">Amazon Viewer</h3>
+                    <h6 class="project-course">Java</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> Abril 2019</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en:</strong> Ruta github</small></p>
+                    <p class="project-description">Proyecto a raiz del curso basico de java en PLATZI</p>
                 </div>
                 <figure class="project-imageContainer">
                     <img class="project-image" src="images/platzi-video-react-native.png" width="500" alt="proyecto del curso de React Native">
                 </figure>
             </article>
         </section>
-        <section id="eventos">
-            <h2>Mas sobre mi experiencia</h2>
-            <article>
-                <figure>
+        <h2 class="event-list-tittle">Mas sobre mi experiencia</h2>
+        <section id="eventos" class="event-list">
+            <article class="event">
+                <figure class="event-imageContainer">
                     <img src="images/platzi-conf.jpg" width="500" />
                 </figure>
-                <h3>ADDC 2018</h3>
-                <p>App Design and Development Conference</p>
-                <a href="https://addconf.com/2018/" target="_blank">ADDC 2018</a>
-
+                <div class="event-detail">
+                    <h3 class="event-tittle">ADDC 2018</h3>
+                    <p class="event-description">App Design and Development Conference. Single-track international conference for iOS & Android developers and UX/UI designers in Barcelona, Spain</p>
+                    <a class="event-url" href="https://addconf.com/2018/" target="_blank">ADDC 2018</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img src="images/platzi-conf.jpg" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-tittle">ADDC 2018</h3>
+                    <p class="event-description">App Design and Development Conference. Single-track international conference for iOS & Android developers and UX/UI designers in Barcelona, Spain</p>
+                    <a class="event-url" href="https://addconf.com/2018/" target="_blank">ADDC 2018</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img src="images/platzi-conf.jpg" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-tittle">ADDC 2018</h3>
+                    <p class="event-description">App Design and Development Conference. Single-track international conference for iOS & Android developers and UX/UI designers in Barcelona, Spain</p>
+                    <a class="event-url" href="https://addconf.com/2018/" target="_blank">ADDC 2018</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img src="images/platzi-conf.jpg" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-tittle">ADDC 2018</h3>
+                    <p class="event-description">App Design and Development Conference. Single-track international conference for iOS & Android developers and UX/UI designers in Barcelona, Spain</p>
+                    <a class="event-url" href="https://addconf.com/2018/" target="_blank">ADDC 2018</a>
+                </div>
             </article>
         </section>
-        <section id="contacto">
-            <form action="/suscripcion/">
+        <section id="contacto" class="contact">
+            <form action="/suscripcion/" class="form-email">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Déjame tu email" id="email">
                 <button>Enviar</button>
             </form>
+            <div class="social">
+                <a href="" class="social-link twitter"></a>
+                <a href="" class="social-link facebook"></a>
+                <a href="" class="social-link github"></a>
+                <a href="" class="social-link instagram"></a>
+            </div>
         </section>
-        <footer></footer>
+        <footer class="footer">
+            <div>
+                <p>Curso de desarrollo web Online <img src="images/platzi.png" alt="platzi" width="80px"> </p>
+            </div>
+            <div>
+                <p>
+                    Designed with <\3 by <a href="https://twitter.com/jlo_beto">@jlo_beto</a>
+                </p>
+
+            </div>
+
+        </footer>
         
          
     </body>
