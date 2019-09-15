@@ -302,3 +302,9 @@ h2 {
     align-items: inherit;
     height: inherit;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        border: 10px solid green;
+    }
+}
