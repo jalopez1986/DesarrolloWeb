@@ -61,6 +61,7 @@ h2 {
      display: flex;
      align-items: center;
      justify-content: space-between;
+     flex-wrap: wrap;
  }
 
  .header a {
@@ -77,6 +78,14 @@ h2 {
      height: inherit;
  }
 
+
+ ol,
+ ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
  .header ol li {
      height: inherit;
  }
@@ -88,12 +97,6 @@ h2 {
     padding: 0 10px;
 }
 
- ol,
- ul {
-     margin: 0;
-     padding: 0;
-     list-style: none;
- }
 
  figure {
      margin: 0;
@@ -109,6 +112,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-image {
@@ -130,6 +134,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-title {
@@ -225,6 +230,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social{
@@ -283,6 +289,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img {
@@ -295,16 +302,48 @@ h2 {
 
 .container {
     /* border: 1px solid red; */
-    width: 1000px;
+    max-width: 1000px;
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
+    flex-wrap: inherit;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        border: 10px solid green;
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        display: block;
+        height: auto;
     }
+
+    .header ol {
+        display: block;
+    }
+
+    .header ol li {
+        height: 50px;
+    }
+
+    .header a {
+        justify-content: center;
+    }
+
+    .header .logo {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
 }
